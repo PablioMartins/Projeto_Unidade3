@@ -1,0 +1,10 @@
+release/dialognew.o
+release/dialogsalvar.o
+release/gridsculptor.o
+release/main.o
+release/mainwindow.o
+release/sculptor.o
+release/moc_dialognew.o
+release/moc_dialogsalvar.o
+release/moc_gridsculptor.o
+release/moc_mainwindow.o

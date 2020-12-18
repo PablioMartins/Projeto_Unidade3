@@ -1,0 +1,10 @@
+debug/dialognew.o
+debug/dialogsalvar.o
+debug/gridsculptor.o
+debug/main.o
+debug/mainwindow.o
+debug/sculptor.o
+debug/moc_dialognew.o
+debug/moc_dialogsalvar.o
+debug/moc_gridsculptor.o
+debug/moc_mainwindow.o
