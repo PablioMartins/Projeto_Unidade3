@@ -481,7 +481,7 @@ public:
         retranslateUi(MainWindow);
         QObject::connect(pushButton_new, SIGNAL(clicked(bool)), actionNewsculp, SLOT(trigger()));
         QObject::connect(gridsculptor, SIGNAL(updatePos(int,int)), MainWindow, SLOT(drawObject(int,int)));
-        QObject::connect(barraZ, SIGNAL(sliderReleased()), MainWindow, SLOT(setPlanoZ()));
+        QObject::connect(barraZ, SIGNAL(valueChanged(int)), MainWindow, SLOT(setPlanoZ()));
         QObject::connect(SliderR, SIGNAL(sliderReleased()), MainWindow, SLOT(updatecolor()));
         QObject::connect(SliderG, SIGNAL(sliderReleased()), MainWindow, SLOT(updatecolor()));
         QObject::connect(SliderB, SIGNAL(sliderReleased()), MainWindow, SLOT(updatecolor()));

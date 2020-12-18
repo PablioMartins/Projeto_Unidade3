@@ -477,7 +477,7 @@
   </connection>
   <connection>
    <sender>barraZ</sender>
-   <signal>sliderReleased()</signal>
+   <signal>valueChanged(int)</signal>
    <receiver>MainWindow</receiver>
    <slot>setPlanoZ()</slot>
    <hints>
